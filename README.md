@@ -26,7 +26,7 @@ Download the one for Windows and install it.
 You can download from here: 
 [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
 
-Click download, on the LTS version. It's Free. Next page click the 'download now' link if it doens't automatically download.
+Click download, on the LTS version. It's Free. Next page click the 'download now' link if it doesn't automatically download.
 
 
 ##### 3. Open VMWare player and click "create a new virtual machine"
