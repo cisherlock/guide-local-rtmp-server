@@ -6,7 +6,7 @@ By setting up a local RTMP server you will also be able to use multiple remote c
 This guide is written for the average streamer and assumes you have a decent level of competency with computers. Advacned users should find it easy to modify the below for more advanced setups. For example, setting up on a dedicated machine, adding VOD recording and setting up a VPN so you can remote stream from anywhere in the world.
 
 ##### Security.
-The following setup is limited to your local network (your WIFI). Only users connected to your WIFI will be abel to view the remote camera if they know the stream key. The remote camera is then imported to OBS which you can then stream to the internet.
+The following setup is limited to your local network (your WIFI). Only users connected to your WIFI will be able to view the remote camera if they know the stream key. The remote camera is then imported to OBS which you can then stream to the internet.
 
 To use the remote camera from anywhere in the world (over 4G) you would need to setup a VPN which isn't included in this guide.
 
