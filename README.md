@@ -119,3 +119,6 @@ Make sure you replace the IP with the one you got in the previous step.
 
 ## 10. Multiple Cameras
 You can enter anything as the stream key. You can have a different stream key for each phone and have multiple remote cameras at the same time.
+
+## Author
+Craig Sherlock
