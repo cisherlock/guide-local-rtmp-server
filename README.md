@@ -15,21 +15,21 @@ To use the remote camera from anywhere in the world (over 4G) you would need to 
 It's your responsibility to check software licenses and how they apply to your situation.
 
 
-##### 1. Install VMWare Workstation Player
+## 1. Install VMWare Workstation Player
 It's free for personal/home use: 
 [https://www.vmware.com/uk/products/workstation-player/workstation-player-evaluation.html](https://www.vmware.com/uk/products/workstation-player/workstation-player-evaluation.html)
 
 Download the one for Windows and install it.
 
 
-##### 2. Download Linux image
+## 2. Download Linux image
 You can download from here: 
 [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
 
 Click download, on the LTS version. It's Free. Next page click the 'download now' link if it doesn't automatically download.
 
 
-##### 3. Open VMWare player and click "create a new virtual machine"
+## 3. Open VMWare player and click "create a new virtual machine"
 Select "install from disk image" and browse to the Linux iso you downloaded in step 2
 You should provide the virtual machine with at least 2GB of RAM. If installation freezes you may need more.
 
@@ -38,7 +38,7 @@ Under Network Adapter, select "Bridged: Connected direct..." this will allow the
 Follow the on-screen instructions and complete setup
 
 
-##### 4. Open the terminal and run the following commands:
+## 4. Open the terminal and run the following commands:
 (Enter each line below starting with a $ and hit return... but don't enter the '$' sign)
 
 ```
@@ -61,7 +61,7 @@ $ sudo make install
 ```
 
 
-## Configure
+## 5. Configure
 ```
 $ cd /usr/local/nginx/conf
 $ sudo nano nginx.conf
@@ -84,7 +84,7 @@ To save and exit:
 Press Ctrl+x, then press y, and hit return
 
 
-## Run nginx. In terminal enter the following commands:
+## 6. Run nginx. In terminal enter the following commands:
 ```
 $ cd ../
 $ sudo sbin/nginx
@@ -92,7 +92,7 @@ $ sudo sbin/nginx
 The RTMP server is now running on your local network...
 
 
-## Find IP
+## 7. Find IP
 Type the following command in the terminal:
 ```
 $ ip a
@@ -100,7 +100,7 @@ $ ip a
 Take note of the IP address. You should see an ip starting 192.168.0.xx
 
 
-## Setup Stream Labs App
+## 8. Setup Stream Labs App
 In the Stream Labs app, under settings, select custom RTMP server and enter the IP like so:
 ```
 rtmp://192.168.0.xx:1935/live
@@ -109,7 +109,7 @@ Stream key: test
 Make sure you replace the IP with the one you got in the previous step.
 
 
-## Setup OBS
+## 9. Setup OBS
 Add the stream as a media source. Untick local file, and enter:
 ```
 rtmp://192.168.0.xx/live/test
@@ -117,5 +117,5 @@ rtmp://192.168.0.xx/live/test
 Make sure you replace the IP with the one you got in the previous step.
 
 
-## Multiple Cameras
+## 10. Multiple Cameras
 You can enter anything as the stream key. You can have a different stream key for each phone and have multiple remote cameras at the same time.
