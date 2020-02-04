@@ -69,15 +69,15 @@ $ sudo nano nginx.conf
 Move to the bottom of the file using the arrow keys. After the last '}' enter the following:
 ```
 rtmp {
-server {
-listen 1935;
-chunk_size 4096;
+  server {
+    listen 1935;
+    chunk_size 4096;
 
-application live {
-live on;
-record off;
-}
-}
+    application live {
+      live on;
+      record off;
+    }
+  }
 }
 ```
 To save and exit:
