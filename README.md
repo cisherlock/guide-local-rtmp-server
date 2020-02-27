@@ -43,7 +43,7 @@ On a fresh install of Ubuntu, open the terminal and type the following:
 (note: don't enter the '$')
 ```
 $ cd ~/Desktop
-$ wget https://github.com/cisherlock/guide-local-rtmp-server/blob/master/rtmp.sh
+$ wget https://raw.githubusercontent.com/cisherlock/guide-local-rtmp-server/master/rtmp.sh
 $ chmod +x rtmp.sh
 $ ./rtmp.sh
 ```
