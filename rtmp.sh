@@ -77,7 +77,7 @@ sleep 2
 echo "."
 echo "."
 echo "."
-echo "In OBS add a media source. Un-tick local file and enter: rtmp://192.168.0.xx/live/test"
+echo "In OBS add a media source. Un-tick local file and enter: rtmp://192.168.0.xx/live/Your-Stream-Key"
 sleep 2
 echo "."
 echo "."
