@@ -6,13 +6,12 @@ echo "*************************************"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 sleep 5
 
-mkdir /tmp
 cd /tmp
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt-get install build-essential libpcre3 libpcre3-dev libssl-dev
-sudo apt-get install zlibc zlib1g zlib1g-dev
+sudo apt-get install build-essential libpcre3 libpcre3-dev libssl-dev -y
+sudo apt-get install zlibc zlib1g zlib1g-dev -y
 
 wget http://nginx.org/download/nginx-1.16.1.tar.gz
 wget https://github.com/sergey-dryabzhinsky/nginx-rtmp-module/archive/dev.zip
@@ -28,7 +27,7 @@ sudo make install
 
 cd /usr/local/nginx/conf
 
-echo 'rtmp {
+sudo sh -c "echo 'rtmp {
   server {
     listen 1935;
     chunk_size 4096;
@@ -38,7 +37,7 @@ echo 'rtmp {
       record off;
     }
   }
-}' >> nginx.conf
+}' >> nginx.conf"
 
 cd ../
 sudo sbin/nginx
