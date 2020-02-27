@@ -37,6 +37,23 @@ Under Network Adapter, select "Bridged: Connected direct..." this will allow the
 
 Follow the on-screen instructions and complete setup
 
+## Easy Option
+On a fresh install of Ubuntu, open the terminal and type the following:
+
+(note: don't enter the '$')
+```
+$ cd ~/Desktop
+$ wget https://raw.githubusercontent.com/cisherlock/guide-local-rtmp-server/master/rtmp.sh
+$ chmod +x rtmp.sh
+$ ./rtmp.sh
+```
+You will possibly get an error saying it can't create '/tmp', and prompt for password. Just enter your password and press return.
+
+The script will pause at certain points and ask if you want to continue. Always answer with Y.
+
+
+Wait until the script ends. Follow instructions as they appear in the terminal. No need to follow any of the below steps.
+
 
 ## 4. Open the terminal and run the following commands:
 (Enter each line below starting with a $ and hit return... but don't enter the '$' sign)
