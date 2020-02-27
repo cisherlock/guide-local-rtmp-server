@@ -47,6 +47,9 @@ $ wget https://raw.githubusercontent.com/cisherlock/guide-local-rtmp-server/mast
 $ chmod +x rtmp.sh
 $ ./rtmp.sh
 ```
+You will possibly get an error saying it can't create '/tmp', and prompt for password. Just enter your password and press return.
+
+
 Wait until the script ends. Follow instructions as they appear in the terminal. No need to follow any of the below steps.
 
 
