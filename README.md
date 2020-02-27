@@ -39,6 +39,7 @@ Follow the on-screen instructions and complete setup
 
 ## Easy Option
 On a fresh install of Ubuntu, open the terminal and type the following:
+
 (note: don't enter the '$')
 ```
 $ cd ~/Desktop
@@ -46,7 +47,7 @@ $ wget https://github.com/cisherlock/guide-local-rtmp-server/blob/master/rtmp.sh
 $ chmod +x rtmp.sh
 $ ./rtmp.sh
 ```
-Wait until the script ends. Follow instructions as they appear in the terminal.
+Wait until the script ends. Follow instructions as they appear in the terminal. No need to follow any of the below steps.
 
 
 ## 4. Open the terminal and run the following commands:
