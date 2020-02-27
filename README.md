@@ -46,7 +46,7 @@ $ wget https://github.com/cisherlock/guide-local-rtmp-server/blob/master/rtmp.sh
 $ chmod +x rtmp.sh
 $ ./rtmp.sh
 ```
-Wait until the script ends and skip to step 7 below.
+Wait until the script ends. Follow instructions as they appear in the terminal.
 
 
 ## 4. Open the terminal and run the following commands:
